@@ -12,6 +12,7 @@ const IndexPage = () => (
     
     <a href="mailto:alexcarbajo@gmail.com">Mail</a>
     <a href="https://www.linkedin.com/in/alexcarbajo">Linkedin</a>
+    <a href="https://www.medium.com/@alexcarbajo">Medium</a>
     <a href="tel:0034630003359">Phone</a>
     
     <Image />

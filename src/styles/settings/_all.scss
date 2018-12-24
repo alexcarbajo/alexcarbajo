@@ -1,16 +1,4 @@
-///*----------------------------------*\
-//  #SETTINGS
-//\*----------------------------------*/
-
-///
-// CONTENTS
-//
-// SETTINGS
-// Config...............Configuration and environment settings.
-// Global...............Globally-available variables and settings/config.
-// Colors...............Manage our color palette in isolation.
- //
-
 @import "settings.config";
 @import "settings.global";
 @import "settings.colors";
+@import "settings.custom";

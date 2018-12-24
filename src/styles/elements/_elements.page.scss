@@ -1,0 +1,13 @@
+/*------------------------------------*\
+  #PAGE
+\*------------------------------------*/
+
+/**
+ * Page-level styling (e.g. HTML and BODY elements).
+ */
+
+html {
+  font-size: $global-font-size;
+  line-height: $global-line-height;
+  color: $color-page-text;
+}
