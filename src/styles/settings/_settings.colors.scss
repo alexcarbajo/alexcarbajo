@@ -1,15 +1,14 @@
-// Colour palette.
-$color-brand-primary:               #378bb5 !default;
+// Color palette.
+$color-brand-primary:               #7B77FF !default;
 $color-brand-primary-highlight:     lighten($color-brand-primary, 5%) !default;
 $color-brand-primary-shadow:        darken($color-brand-primary,  5%) !default;
 
-$color-brand-secondary:             #abc123 !default;
+$color-brand-secondary:             #3ECF8E !default;
 $color-brand-secondary-highlight:   lighten($color-brand-secondary, 5%) !default;
 $color-brand-secondary-shadow:      darken($color-brand-secondary,  5%) !default;
 
-$color-ui:                          #e4e4e4 !default;
-
-$color-grey:                        #666 !default;
+$color-neutral:                     #19191B !default;
+$color-grey:                        #67666A !default;
 $color-grey-dark:                   #333 !default;
 $color-grey-light:                  #999 !default;
 $color-white:                       #fff !default;
