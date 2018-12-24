@@ -2,30 +2,43 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 
-const Header = ({ siteTitle }) => (
-  <div>
-    <div>
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `red`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </div>
-)
+class Header extends React.Component {
+  constructor(props) {
+    super(props)
+    
+    this.state = {
+      hasScrolled: false
+    }
+  }
+  
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  }
+  
+  handleScroll = (event) => {
+    const scrollTop = window.pageYOffset
+    
+    if (scrollTop > 50) {
+      this.setState({ hasScrolled: true })
+    } else {
+      this.setState({ hasScrolled: false })
+    }
+  }
+  
+  render() {
+    return (
+      <div className={this.state.hasScrolled ? 'o-Header hasScrolled' : 'Header'}>
+        <div className="o-Header__content">
+          <Link to="/">Alex Carbajo</Link>
+        </div>
+      </div>
+    )
+  }
+}
+
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
 }
 
 export default Header
