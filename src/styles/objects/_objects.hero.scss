@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
 
   & > * {
@@ -12,5 +12,17 @@
 }
 
 .o-Hero__menu {
-  margin-top: 1.5rem;
+  display: flex;
+  align-content: center;
+  flex-flow: wrap;
+  margin-top: 1rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .o-Hero {
+    & > * {
+      width: 60vw;
+    }
+  }
 }

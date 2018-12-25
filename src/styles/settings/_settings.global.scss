@@ -7,8 +7,8 @@ $global-line-height:  round($global-font-size * 1.25) !default;
 // Standardise some UI treatments.
 $global-radius:                   5px !default;
 $global-transition:               0.125s !default;
-$global-transition--button:       0.3s !default;
-$global-transition--movement:     ease-out all;
+$global-transition--button:       0.125s !default;
+$global-transition--movement:     ease translate;
 
 // Private/framework-only reassignment. Do not alter anything below.
 $global-spacing-unit:       round($global-line-height);

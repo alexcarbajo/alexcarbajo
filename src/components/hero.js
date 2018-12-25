@@ -4,13 +4,13 @@ class Hero extends React.Component {
   render() {
     return (
       <div className="o-Hero">
-        <h1>UX Designer focused in travel industry and data-driven design.</h1>
+        <h1>Product Designer focused in travel industry and <span className="u-Nowrap">data-driven</span> design.</h1>
         <h2>
           Hi, I'm Alex and I'm currently working at <a href="https://www.suntransfers.com" target="_blank" rel="noopener noreferrer">Suntransfers.com <span role="img" aria-label="Taxi in movement">🚕💨</span></a>, leading the UX and UI Development team.
         </h2>
         
         <div class="o-Hero__menu">
-          <span className="c-Button c-Button--primary c-Button--margin-right">Resume</span>
+          <a href="https://drive.google.com/open?id=1K9mZ6EUh6TqICtcslGFnLwZMKPnptBfu" target="_blank" rel="noopener noreferrer" className="c-Button c-Button--primary c-Button--margin-right">Resume</a>
           <a className="c-Link c-Link--highlight" href="mailto:alexcarbajo@gmail.com">Contact</a>
         </div>
       </div>

@@ -29,7 +29,7 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'o-Header hasScrolled' : 'o-Header'}>
         <div className="o-Header__content">
-          <Link to="/">Alex Carbajo</Link>
+          <Link to="/" className="c-Logo">Alex Carbajo</Link>
         </div>
       </div>
     )

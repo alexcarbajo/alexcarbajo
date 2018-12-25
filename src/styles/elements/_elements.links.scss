@@ -8,14 +8,15 @@ a {
   }
 }
 
-
 .c-Link {
   padding: 0.5rem;
-  border-radius: 0.3rem;
   display: inline-flex;
-  transition: $global-transition--button $global-transition--movement;
+  align-self: center;
+  border-radius: 0.3rem;
+  transition: $global-transition--button ease all;
+  background-color: $color-white;
 
-  &:focus, &:hover {
+  &:focus, &:hover, &:active {
     background-color: $color-links--background;
     text-decoration: none;
   }
@@ -24,4 +25,16 @@ a {
 .c-Link--highlight {
   padding: 0.75rem 1.25rem;
   font-size: 1.25rem;
+}
+
+.c-Logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: $color-brand-primary-shadow;
+  transition: 1s ease color;
+
+  &:hover {
+    text-decoration: none;
+    color: $color-brand-primary-headline;
+  }
 }
