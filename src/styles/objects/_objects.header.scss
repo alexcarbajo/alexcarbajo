@@ -1,0 +1,21 @@
+.o-Header {
+  position: fixed;
+  width: 100%;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  padding: 1rem 0;
+  transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
+
+  &.hasScrolled {
+    background: $color-white;
+    padding: 10px 0px;
+  }
+}
+
+.o-Header__content {
+  width: 80vw;
+}

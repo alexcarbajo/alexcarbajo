@@ -1,6 +1,7 @@
 // Color palette.
 $color-brand-primary:               #7B77FF !default;
 $color-brand-primary-highlight:     lighten($color-brand-primary, 5%) !default;
+$color-brand-primary-headline:      #444377 !default;
 $color-brand-primary-shadow:        darken($color-brand-primary,  5%) !default;
 
 $color-brand-secondary:             #3ECF8E !default;
@@ -13,6 +14,7 @@ $color-grey-dark:                   #333 !default;
 $color-grey-light:                  #999 !default;
 $color-white:                       #fff !default;
 
-$color-links:                       red !default;
+$color-links:                       $color-brand-primary-shadow;
+$color-links--background:           #F8F8FF !default;
 $color-page-text:                   $color-neutral !default;
 
