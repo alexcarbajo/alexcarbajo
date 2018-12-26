@@ -3,8 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
   width: 100vw;
+  padding-top: 100px;
 
   & > * {
     width: 80vw;
@@ -22,6 +22,7 @@
 
 @media screen and (min-width: 1024px) {
   .o-Hero {
+    padding-top: 0;
     height: 100vh;
 
     & > * {
