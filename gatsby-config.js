@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Alex Carbajo`,
-    description: `Designer focused in data-driven design and design systems.`,
+    description: `Product Designer focused in travel industry and data-driven design.`,
     author: `@alexcarbajo`,
   },
   plugins: [
