@@ -1,0 +1,28 @@
+.cc-banner {
+  z-index: 9999999 !important;
+  font-family: $font-family !important;
+}
+
+.cc-message {
+  font-weight: 600;
+}
+
+.cc-link {
+  color: #625eff;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover, &:active {
+    text-decoration: underline;
+  }
+}
+
+.cc-btn {
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+  border-color: $color-brand-primary-headline !important;
+  color: $color-brand-primary-headline !important;
+  padding: 0.55rem 1.2rem;
+  white-space: nowrap;
+}
