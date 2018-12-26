@@ -14,6 +14,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-T3XXNS8",
+        includeInDevelopment: false,
+      },
+    },
+    {
       resolve: `gatsby-plugin-sass`,
       options: {
         // postCssPlugins: [somePostCssPlugin()],
