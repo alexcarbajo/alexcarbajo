@@ -3,14 +3,4 @@ html {
   line-height: $global-line-height;
   color: $color-page-text;
   font-family: $font-family;
-  animation: display 2s 1;
-}
-
-@keyframes display {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
