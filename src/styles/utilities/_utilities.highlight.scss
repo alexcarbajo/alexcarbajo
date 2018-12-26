@@ -1,0 +1,26 @@
+.u-Highlight {
+  position: relative;
+  color: $color-brand-primary;
+
+  &:after {
+    content: '';
+    position: absolute;
+    border-bottom: 4px solid hsla(153, 60%, 77%, 1);
+    top: 92%;
+    width: 100%;
+    left: 0px;
+    transform: rotate(-0.6deg);
+    z-index: -1;
+    border-radius: 57% 19% 69% 12%;
+    pointer-events: none;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .u-Highlight {
+    &:after {
+      border-bottom-width: 6px;
+      top: 85%;
+    }
+  }
+}
